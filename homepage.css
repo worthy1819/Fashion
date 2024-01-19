@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(482308.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.nav-link:hover{
+    background-color: rgba(255, 255, 255, 0.319);
+}
+.nav-link:active{
+    background-color: transparent;
+}
+.navbar-brand:hover{
+    opacity: .5;
+}
+.navbar-brand:active{
+    opacity: 1;
+}
+.heading{
+    margin-top: 60px;
+}
+.grid{
+    padding-left: 50px;
+}
+.btn{
+    border: 2px solid white;
+}
+.ad:hover{
+    opacity: .8;
+    cursor: pointer;
+}
+.ad:active{
+    opacity: 1;
+    cursor: pointer;
+}
+.ad img{
+    outline: 2px solid white;
+    outline-offset: 6px;
+}
+.hero{
+    width: 100%;
+    height: 100vh;
+}
+.second-section{
+    height: calc(200vh - 100vh);
+}
+.fea{
+    border: 2px solid white;
+}
+.fea:hover{
+    background-color: rgba(255, 255, 255, 0.358);
+    cursor: pointer;
+    color: white;
+}
+.fea:active{
+    background-color: transparent;
+}
+.fea img:hover{
+    opacity: .5;
+}
+.fea img:active{
+    opacity: 1;
+}
